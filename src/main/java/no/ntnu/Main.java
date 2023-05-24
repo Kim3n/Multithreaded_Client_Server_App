@@ -9,10 +9,5 @@ class Main {
         SingleThreadedServer server = new SingleThreadedServer(8080);
         Thread serverThread = new Thread(server);
         serverThread.start();
-
-//        System.out.println("Starting MultiThread server");
-//        MultiThreadedServer server = new MultiThreadedServer(8080);
-//        Thread serverThread = new Thread(server);
-//        serverThread.start();
     }
 }
